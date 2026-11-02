@@ -1,18 +1,18 @@
 class Wt < Formula
   desc "Git worktree manager CLI"
   homepage "https://github.com/leesangb/wt"
-  version "0.15.0"
+  version "0.15.1"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/leesangb/wt/releases/download/v0.15.0/wt-macos-arm64"
-      sha256 "0947118b4b794ae44e4a3edb84637ea35f9016732ac09ed8f0d29fdd3dca3f97"
+      url "https://github.com/leesangb/wt/releases/download/v0.15.1/wt-macos-arm64"
+      sha256 "41efa0b89a2acad5cbae926f9e2e02bf121dca398c50426d104c5e8ac0ea9cd9"
     end
 
     on_intel do
-      url "https://github.com/leesangb/wt/releases/download/v0.15.0/wt-macos-x64"
-      sha256 "5cf21163f9f523ced925da3ddac82b165997cc10cc58249de73fcdda5b4875ae"
+      url "https://github.com/leesangb/wt/releases/download/v0.15.1/wt-macos-x64"
+      sha256 "a9d4185f21961f2b27c9e7208df57384f674304019d2cc088ccea17f429dff1b"
     end
   end
 
